@@ -1,0 +1,150 @@
+.whatis-grid {
+  width: 100%;
+  height: 500px;
+}
+
+@media (max-width: 1260px) {
+  .whatis-grid {
+    width: 100%;
+    height: 36.238vw;
+  }    
+}
+
+@media (max-width: 768px) {
+  .whatis__row_second .whatis__col:first-child {
+      display: block;
+  }
+}
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.col-6 {
+  width: calc(50% - 24px);
+  margin: 0 10px;
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .col-3-lg {
+    width: calc(25% - 44px);
+    margin: 0 20px;
+    display: inline-block;
+  }  
+}
+.team-member {
+  width: 100%;
+}
+.team-section {
+  padding: 80px 40px;
+}
+
+.team-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.team-text {
+  margin-top: 12px;
+  color: #fff;  
+  font-size: 16px;
+  font-family: "ComicSans", sans-serif;
+}
+.team-name {
+  margin-top: 20px;
+  font-size: 32px;
+  font-family: "ComicSans", sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+.team-role {
+  font-size: 20px;
+  font-family: "ComicSans", sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+
+.flex-row {
+  display: block;
+}
+.col-12 {
+  width: 100%;
+}
+.story {
+  width: 100%;
+  padding: 80px 40px;
+  color: #fff;
+  font-family: "ComicSans", sans-serif;
+}
+@media (min-width: 768px){
+  .flex-row {
+    display: flex;
+  }
+  .col-6-lg {
+    width: calc(50% - 28px);
+    margin: 0 10px;
+    display: inline-block;
+  }
+  .col-4-lg {
+    width: calc(33.33% - 24px);
+    margin: 0 10px;
+    display: inline-block;
+  }
+}
+.story-img {
+  width: 100%;
+}
+.story-number {
+  color: #8a80ea;
+  font-size: 24px;
+  font-weight: 700;
+}
+.story-header {
+  color: #8a80ea;
+  font-size: 20px;
+  font-weight: 700;
+}
+.story-text {
+  color: #fff;
+  font-size: 16px;
+}
+.story-small-section {
+  margin: 24px 0;
+}
+.story-title {
+  color: #8a80ea;
+  font-weight: 700;
+  -webkit-text-stroke: 0;
+}
+
+.roadmap-section-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin: 10px 0;
+}
+.phase-color {
+  color: #8a80ea;
+}
+.roadmap-big-intro {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+  line-height: 32px;
+}
+.roadmap-list {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.roadmap {
+  padding: 80px 40px !important;
+}
+
+.roadmap-title {
+  font-size: 72px;
+  text-align: center;
+  font-weight: 700;
+}
+.roadmap-small-header {
+  font-size: 26px;
+  text-align: center;
+}
