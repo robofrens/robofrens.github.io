@@ -183,3 +183,17 @@
   font-weight: 700;
   font-size: 20px;
 }
+
+.faq__image {
+  position: relative;
+}
+.faq-img {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.faq__title {
+  text-align: center;
+}
