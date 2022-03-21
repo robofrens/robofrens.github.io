@@ -197,3 +197,14 @@
 .faq__title {
   text-align: center;
 }
+@media (max-width: 768px){
+  .faq__container {
+    flex-direction: column;
+  }
+  .faq__image {
+    display: block !important;
+  }
+  .faq__list {
+    height: unset !important;
+  }
+}
