@@ -222,4 +222,35 @@
   .whatis-grid, .whatis__row, .whatis__container {
     height: 500px;
   }
+  .roadmap {
+    margin: 30px 0px !important;
+  }
+  .whatis-grid__item03 {
+    height: 25.925%;
+  }
+  .roadmap-section-title {
+    font-size: 24px;
+  }
+  .roadmap-big-intro {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .roadmap .col-12 {
+    margin-top: 30px;
+  }
+  .roadmap-list {
+    font-size: 15px;
+  }
+  .story-title {
+    margin-top: 25px;
+  }
+  .team-name {
+    font-size: 22px;
+  }
+  .team-role {
+    font-size: 18px;
+  }
+  .team-section {
+    padding: 40px 20px;
+  }
 }
