@@ -219,4 +219,7 @@
   .whatis-grid__item03 {
     height: 70px;
   }
+  .whatis-grid, .whatis__row, .whatis__container {
+    height: 500px;
+  }
 }
